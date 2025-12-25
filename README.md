@@ -1,28 +1,47 @@
-# Домашнее задание к работе 17
+<img width="272" height="193" alt="image" src="https://github.com/user-attachments/assets/410f21e1-dbb3-4bc3-aa62-f199a888a6cf" /># Домашнее задание к работе 22
 ## Условие задачи
-1) сравнение простых сортировок (выбором, пузырьковая, коктельная, вставками) для различных размеров выборок  100, 1000, 10000 значений
-
+2. Вычисляет сумму максимального и минимального значений функции.
 
 ## 1. Алгоритм и блок-схема
 ## Алгоритм
 ```
-1. Начало
-2. Задать размеры массивов: 100, 1000 и 10000.
-3. Для каждого размера массива выделить память под четыре массива.
-4. Заполнить массивы одинаковыми случайными числами.
-5. Выполнить пузырьковую сортировку и измерить время работы.
-6. Выполнить сортировку выбором и измерить время работы.
-7. Выполнить коктейльную сортировку и измерить время работы.
-8. Выполнить сортировку вставками и измерить время работы.
-9. Вывести в консоль результаты измерений.
-10. Освободить выделенную память.
-11. Вывести общий вывод и завершить программу.
+1. Начало программы.
+2. Подключить библиотеки и определить константы и структуры (SCREENW, SCREENH, Point, TFunc).
+3. Определить функции S(x), V(x), Y(x).
+4. Реализовать функцию вывода массива точек (printPoints).
+5. Реализовать функцию построения графика (plot).
+6. Реализовать функцию выбора функции пользователем (selectFunction).
+7. Реализовать функции работы с файлами:
+   - writeToFile — запись значений функции в файл.
+   - readFromFile — чтение значений из файла и вычисление функции.
+8. Реализовать табулирование функции (tabulate).
+9. Реализовать нахождение максимума методом золотого сечения (goldenSectionMax).
+10. Реализовать вычисление суммы максимума и минимума функции (sumMaxMin).
+11. Создать главное меню программы:
+    - Выбор действий: вычисление функции, табулирование, операции с файлами и максимум, построение графика, сумма максимума и минимума, выход.
+    - Для выбранного действия вызвать соответствующую функцию.
+12. Повторять меню до выбора выхода.
+13. Завершить программу.
+
 
 ```
    
 ### Блок-схема
+1)goldenSectionMax
+<img width="230" height="519" alt="image" src="https://github.com/user-attachments/assets/760c0507-a446-4524-b6b4-6b903c28c3d5" />
+2) printPoints
+<img width="272" height="193" alt="image" src="https://github.com/user-attachments/assets/0ec72573-11f1-4fb2-9190-59be597b8477" />
+3)readFromFile
+<img width="283" height="470" alt="image" src="https://github.com/user-attachments/assets/c16a3ac7-ee2f-4b3c-938f-b0c6d8c1d7b1" />
+4)TFunc selectFunction
+<img width="414" height="355" alt="image" src="https://github.com/user-attachments/assets/e9d6a665-2f74-4ae3-87e4-7e9a73389337" />
+5)sumMaxMin
+<img width="307" height="674" alt="image" src="https://github.com/user-attachments/assets/68ceeaf1-3e1a-43f9-9a44-236a7ab2a751" />
+6)tabulate
+<img width="280" height="279" alt="image" src="https://github.com/user-attachments/assets/ecd8e836-0ab0-4f3e-aecb-95f352831a94" />
+7) writeToFile
+<img width="271" height="528" alt="image" src="https://github.com/user-attachments/assets/67893127-5199-4fc2-b657-5a80b777ca8f" />
 
-![Lab17](https://github.com/user-attachments/assets/037e4e83-0bcb-41d9-b618-9b410df0f579)
 
 
 
@@ -314,4 +333,5 @@ x=0,850000, f(x)=0,751280
 ```
 
 
-<img width="1116" height="406" alt="{7FCBE7F9-B8C5-41E8-9F76-2DE21E380145}" src="https://github.com/user-attachments/assets/67495d51-feaf-41a2-ab9b-aeb63da48239" />
+<img width="718" height="998" alt="image" src="https://github.com/user-attachments/assets/a04708b5-0330-406b-b6a6-e4395748efa7" />
+<img width="1056" height="906" alt="image" src="https://github.com/user-attachments/assets/e1237fd2-b79c-4f35-a22f-6a368563cab0" />
