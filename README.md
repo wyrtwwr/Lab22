@@ -27,20 +27,30 @@
 ```
    
 ### Блок-схема
+<br>
 1)goldenSectionMax
+<br>
 <img width="230" height="519" alt="image" src="https://github.com/user-attachments/assets/760c0507-a446-4524-b6b4-6b903c28c3d5" />
+<br>
+<br>
 2) printPoints
 <img width="272" height="193" alt="image" src="https://github.com/user-attachments/assets/0ec72573-11f1-4fb2-9190-59be597b8477" />
+<br>
 3)readFromFile
 <img width="283" height="470" alt="image" src="https://github.com/user-attachments/assets/c16a3ac7-ee2f-4b3c-938f-b0c6d8c1d7b1" />
+<br>
 4)TFunc selectFunction
 <img width="414" height="355" alt="image" src="https://github.com/user-attachments/assets/e9d6a665-2f74-4ae3-87e4-7e9a73389337" />
+<br>
 5)sumMaxMin
 <img width="307" height="674" alt="image" src="https://github.com/user-attachments/assets/68ceeaf1-3e1a-43f9-9a44-236a7ab2a751" />
+<br>
 6)tabulate
 <img width="280" height="279" alt="image" src="https://github.com/user-attachments/assets/ecd8e836-0ab0-4f3e-aecb-95f352831a94" />
+<br>
 7) writeToFile
 <img width="271" height="528" alt="image" src="https://github.com/user-attachments/assets/67893127-5199-4fc2-b657-5a80b777ca8f" />
+<br>
 
 
 
